@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="pedidoStyle.css">
+    <title>Restaurante</title>
+    <script src="script.js"></script>
+</head>
+
+<body>
+   <div class="main">
+        <div class="borda">
+            <div class="central">              
+                    <h1>Seu Pedido</h1>
+                    <div class="pratoEsquerda">
+                        <h2>Entrada</h2>
+                    <img id="entrada" src="" alt="Imagem da Entrada">
+                    </div>                 
+                    <div class="pratoDireita">
+                        <h2>Prato Principal</h2>
+                    <img id="principal" src="" alt="Imagem do Prato Principal">
+                    </div>
+                    <div class="pratoEsquerda">
+                        <h2>Sobremesa</h2>
+                    <img id="sobremesa" src="" alt="Imagem da Sobremesa">
+                    </div>
+                
+                    <script>
+                        const urlParams = new URLSearchParams(window.location.search);
+                        const entrada = urlParams.get('entrada');
+                        const principal = urlParams.get('principal');
+                        const sobremesa = urlParams.get('sobremesa'); 
+                        
+                        document.getElementById('entrada').src = entrada;
+                        document.getElementById('principal').src = principal;
+                        document.getElementById('sobremesa').src = sobremesa;
+                    </script>                         
+                </div>
+            </div> 
+        </div>
+   </div>
+</body>
+
+<footer>
+    <div class="main" id="rodape">
+        <div class="borda">
+            <div class="centralRodaPe">
+                <a href="Index.html">voltar</a>
+                <p id="direitos">&copy; 2023 Restaurante</p>
+            </div>
+        </div>
+    </div>
+</footer>
+

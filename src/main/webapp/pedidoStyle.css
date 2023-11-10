@@ -1,0 +1,91 @@
+body {
+    background-color: #FFEFCF;
+}
+
+
+.main {
+
+    padding: 15px;
+    border-radius: 30px;
+    background-color: #FFFBF3;
+    max-width: 1000px;
+    min-width: 300px;
+    margin: 0 auto;
+    
+}
+
+.borda{
+    border: 2px solid #000;
+    border-radius: 30px; 
+}
+
+.pratoEsquerda{
+    float: left;
+    text-align: left;
+    width: 80%;
+    margin-top: 70px;
+}
+
+.pratoDireita{
+    float: right;
+    text-align: right;
+    width: 80%;
+    margin-top: 70px;
+}
+
+.central{   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column
+}
+
+.prato {
+    border-radius: 10px;
+    width: 60%;
+}
+
+img{
+    width: 80%;
+    border-radius: 10px;
+    width: 60%;
+
+}
+
+#rodape{
+    margin-top: 1%;
+}
+
+a{
+    color: #000;
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+    margin: 2%;
+    width: auto;
+    height: 100%;
+    padding-left: 1%;
+    padding-right: 1%;
+    border: 2px solid #000;
+    border-radius: 30px; 
+}
+
+a:hover{
+    
+    border-radius: 10px;
+    background-color: #FFEFCF;
+    transition: background-color 0.3s ease,
+    border-radius 0.3s ease;
+}
+
+a:not(:hover){
+    transition: background-color 0.3s ease,
+    border-radius 0.3s ease;
+}
+
+.centralRodaPe{   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}

@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Restaurante</title>
+    <script src="script.js"></script>
+</head>
+
+<header>
+    <div class="main">
+        <div class="borda">
+            <div class="cabecalho">
+                <img id="logo" src="imagens/433138.png" alt="logo">
+                <h1 id="nomeRestaurante">Restaurante</h1>
+                    <div class="central" id="menu">
+                        <div class="barraItens" id="menuEntrada">
+                            <h2>Entrada</h2>
+                        </div>
+                        <div class="barraItens" id="menuPrincipal">
+                            <h2>Prato principal</h2>
+                        </div>
+                        <div class="barraItens" id="menuSobremesa">
+                            <h2>Sobremesa</h2>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<body>
+    <div class="main" id="menuTop">
+        <div class="borda">
+            <div class="menuCardapio">
+                <label for="pratosEntrada">entrada:</label>
+                <select class="select" id="pratosEntrada" name="principal">
+                    <option value="Berinjela">Berinjela ao molho tahine</option>
+                    <option value="Bruschetta">Bruschetta de salmão</option>
+                    <option value="Tabua">Tabua de quijos</option>
+                </select>
+
+                <label for="pratosPrinciapal">prato principal:</label>
+                <select class="select" id="pratosPrinciapal" name="principal">
+                    <option value="bacalhau">bacalhau</option>
+                    <option value="Bobo">Bobó de camarão</option>
+                    <option value="camarao">Camarão do atlantico</option>
+                    <option value="combinado">Combinado de sushi</option>
+                    <option value="salmon">ultimate salmon</option>
+                </select>
+
+                <label for="pratosSobremasa">sobremesa:</label>
+                <select class="select" id="pratosSobremasa" name="principal">
+                    <option value="Morango">Morango com creme</option>
+                    <option value="pessego">Taça cremosa de pessego</option>
+                    <option value="Torta">Torta de maçã caramelizada</option>
+                </select>
+
+                <button type="button" id="botao">Fazer pedidos</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="main" id="meio">
+        <div class="borda">
+            <div class="refeicao">
+                <h1 class="titulo" id="entradas">Entradas</h1>
+                    <div class="cardapio">                   
+                        <div id="pratoEsquerda">
+                            <h2>Berinjela ao molho tahine</h2>
+                            <img class="prato" src="imagens/entradas/berinjela-molho-tahine.jpg" alt="berinjela-molho-tahine">
+                            <p>A berinjela ao molho tahine é uma entrada que combina a suavidade da
+                                berinjela grelhada com a cremosidade e o sabor distinto do molho tahine.
+                                É uma opção deliciosa e saudável para os amantes
+                                da culinária mediterrânea.</p>
+                        </div>
+                        <div class="pratoDireita">
+                            <h2>Bruschetta de salmão</h2>
+                            <img class="prato" src="imagens/entradas/bruschetta-de-salmao.jpg" alt="bruschetta-de-salmao">
+                            <p>A Bruschetta de salmão é uma entrada que combina salmão fresco
+                                e saboroso com um molho cremoso e temperado, servido sobre fatias
+                                de pão italiano torrado. Uma deliciosa explosão de sabores e texturas
+                                em cada mordida!</p>
+                        </div>
+                        <div class="pratoEsquerda">
+                            <h2>Tabua de quijos</h2>
+                            <img class="prato" src="imagens/entradas/tabua-de-queijos.jpg" alt="tabua-de-queijos">
+                            <p>A tábua de queijos é uma entrada sofisticada que apresenta uma seleção
+                                cuidadosamente escolhida de queijos diversos, acompanhados de frutas
+                                frescas e nozes. Uma experiência gastronômica que combina sabores e
+                                texturas, ideal para compartilhar com amigos e saborear uma variedade
+                                de queijos de todo o mundo. A tábua de queijos é a escolha perfeita
+                                para iniciar uma refeição com elegância e sabor.</p>
+                        </div>                   
+                    </div>
+                <h1 class="titulo" id="pratoPrinciapal">Prato principal</h1>
+                    <div class="cardapio">
+                        <div id="pratoEsquerda">
+                            <h2>bacalhau</h2>
+                            <img class="prato" src="imagens/principal/bacalhau.jpg" alt="bacalhau">
+                            <p>Deleite-se com o sabor exuberante do nosso Bobó de
+                                 Camarão, uma joia da culinária brasileira que transporta
+                                  você diretamente para as praias tropicais do Brasil.
+                                   Neste prato, camarões suculentos são carinhosamente
+                                    preparados em um molho irresistível. Uma experiência gastronômica 
+                                    que combina perfeitamente a riqueza dos ingredientes locais com 
+                                       a sofisticação que você merece.</p>
+                        </div>
+                        <div class="pratoDireita">
+                            <h2>Bobó de camarão</h2>
+                            <img class="prato" src="imagens/principal/bobo-de-camarao.jpg" alt="bobo-de-camarao">
+                            <p>O Bobo de Camarão é uma joia da culinária brasileira que eleva
+                                 a simplicidade dos ingredientes locais a um nível de sofisticação 
+                                 e sabor extraordinários. Este prato tropical combina camarões suculentos
+                                  com um cremoso purê de mandioca e um toque de dendê, uma deliciosa e
+                                   aromática iguaria da região. No nosso restaurante, apresentamos o Bobo 
+                                   de Camarão com um toque único e um sabor que transporta você diretamente
+                                    para as praias do Brasil.</p>
+                    </div>
+                    <div class="pratoEsquerda">
+                        <h2>Camarão do atlantico</h2>
+                        <img class="prato" src="imagens/principal/camarao-atlantico.jpg" alt="camarao-atlantico">
+                        <p>Explore as riquezas do oceano com o nosso prato exclusivo, o Camarão do
+                             Atlântico. Nesta criação única, os sabores do mar se unem a uma fusão
+                              de sabores, apresentando camarões suculentos acompanhados de um purê de
+                               mandioca cremoso e irresistível, adornados com um molho de camarão delicado
+                                e saboroso. É uma experiência culinária que evoca as brisas marítimas
+                                 do Atlântico e promete satisfazer os paladares mais exigentes.</p>
+                    </div>
+                    <div class="pratoDireita">
+                        <h2>Combinado de sushi</h2>
+                        <img class="prato" src="imagens/principal/combinado-sushi.jpg" alt="combinado-sushi">
+                        <p>Nossa Combinação de Sushi Ocean Dreams é uma experiência gastronômica
+                             que o levará em uma viagem sensorial através das delícias do oceano.
+                              Cada peça cuidadosamente elaborada é uma obra-prima de sabor e textura,
+                               onde os melhores ingredientes se combinam para criar um banquete de sabores
+                                japoneses autênticos. Sinta-se à beira-mar enquanto desfruta da frescura
+                                 do sushi em cada mordida.</p>
+                </div>
+                <div class="pratoEsquerda">
+                    <h2>ultimate salmon</h2>
+                    <img class="prato" src="imagens/principal/ultimate-salmon.jpg" alt="ultimate-salmon">
+                    <p>Delicie-se com a elegância e o sabor inconfundível do salmão em
+                         nossa seleção exclusiva de sushi. Cada peça é uma homenagem à
+                          nobreza deste peixe, apresentando-o em diferentes preparações
+                           que destacam sua textura suculenta e sabor suave. Se você é 
+                           um amante do salmão, esta seleção é uma celebração imperdível
+                            deste peixe excepcional.</p>
+                </div>               
+            </div>
+            <h1 class="titulo" id="tituloSobremesa">Sobremesa</h1>
+            <div class="cardapio">
+                <div class="pratoEsquerda">
+                    <h2>Morango com creme</h2>
+                    <img class="prato" src="imagens/sobremesa/moranguinho-com-creme.jpg" alt="moranguinho-com-creme">
+                    <p>Deleite-se com uma sobremesa clássica e irresistível: Morango com
+                         Creme de Baunilha. Esta criação culinária celebra a simplicidade
+                          dos morangos frescos e a riqueza do creme de baunilha, combinando 
+                          sabores naturais em uma experiência doce e refrescante que satisfará
+                           os paladares mais exigentes.</p>
+                </div> 
+                <div class="pratoDireita">
+                    <h2>Taça cremosa de pessego</h2>
+                    <img class="prato" src="imagens/sobremesa/taca-cremosa-de-pessego.jpg" alt="taca-cremosa-de-pessego">
+                    <p>A Taça Cremosa de Pêssego é uma sobremesa celestial que combina a doçura
+                         e a suavidade dos pêssegos maduros com uma camada generosa de creme,
+                          resultando em uma experiência culinária que é ao mesmo tempo refrescante
+                           e decadente. Cada colherada desta sobremesa é como uma explosão de sabor
+                            suave e frutado.</p>
+            </div>
+            <div class="pratoEsquerda">
+                <h2>Torta de maçã caramelizada</h2>
+                <img class="prato" src="imagens/sobremesa/torta-maca-caramelizada.jpg" alt="torta-maca-caramelizada">
+                <p>Nossa Torta de Maçã Caramelizada é uma obra-prima de sabor, onde as maçãs
+                     frescas são transformadas em uma deliciosa mistura caramelizada, abraçadas
+                      por uma massa amanteigada e crocante. Esta sobremesa clássica é uma
+                       homenagem à doçura natural das maçãs e ao prazer de uma mordida generosa
+                        em cada camada.</p>
+                </div>           
+            </div>               
+        </div>
+    </div>
+</div>
+
+</body>
+
+<footer>
+    <div class="main" id="rodape">
+        <div class="borda">
+            <div class="central" id="menuRodape">
+                <div class="barraItens">
+                    <h2 id="rodaEntrada">Entrada</h2>
+                </div>
+                <div class="barraItens">
+                    <h2 id="rodaPrincipal">Prato principal</h2>
+                </div>
+                <div class="barraItens">
+                    <h2 id="rodaSobremesa">Sobremesa</h2>
+                </div>               
+                <p id="direitos">&copy; 2023 Restaurante</p>
+            </div>
+            
+        </div>
+    </div>
+</footer>
+
+</html>
